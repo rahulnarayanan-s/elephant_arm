@@ -1,0 +1,45 @@
+[0.010s] Invoking command in '/home/nano/project/ros2_ws/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nano/project/ros2_ws/src/mycobot_ros2/mycobot_description -DCMAKE_INSTALL_PREFIX=/home/nano/project/ros2_ws/install/mycobot_description
+[0.153s] -- The C compiler identification is GNU 13.3.0
+[0.254s] -- The CXX compiler identification is GNU 13.3.0
+[0.279s] -- Detecting C compiler ABI info
+[0.395s] -- Detecting C compiler ABI info - done
+[0.406s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.407s] -- Detecting C compile features
+[0.408s] -- Detecting C compile features - done
+[0.422s] -- Detecting CXX compiler ABI info
+[0.544s] -- Detecting CXX compiler ABI info - done
+[0.557s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.558s] -- Detecting CXX compile features
+[0.558s] -- Detecting CXX compile features - done
+[0.562s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.796s] -- Found Python3: /home/nano/.local/share/mise/installs/python/3.10.18/bin/python3 (found version "3.10.18") found components: Interpreter 
+[1.101s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.150s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.166s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.186s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.212s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.310s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.313s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.428s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.456s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.487s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.589s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.614s] Traceback (most recent call last):
+[1.614s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[1.614s]     from catkin_pkg.package import parse_package_string
+[1.614s] ModuleNotFoundError: No module named 'catkin_pkg'
+[1.618s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.618s]   
+[1.618s]   execute_process(/home/nano/.local/share/mise/installs/python/3.10.18/bin/python3
+[1.618s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.619s]   /home/nano/project/ros2_ws/src/mycobot_ros2/mycobot_description/package.xml
+[1.619s]   /home/nano/project/ros2_ws/build/mycobot_description/ament_cmake_core/package.cmake)
+[1.619s]   returned error code 1
+[1.619s] Call Stack (most recent call first):
+[1.619s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.619s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.619s]   CMakeLists.txt:21 (ament_lint_auto_find_test_dependencies)
+[1.619s] 
+[1.619s] [0m
+[1.619s] -- Configuring incomplete, errors occurred!
+[1.630s] Invoked command in '/home/nano/project/ros2_ws/build/mycobot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nano/project/ros2_ws/src/mycobot_ros2/mycobot_description -DCMAKE_INSTALL_PREFIX=/home/nano/project/ros2_ws/install/mycobot_description
